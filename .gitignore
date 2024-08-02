@@ -1,0 +1,4 @@
+# Ignore file & folder
+.env
+public/uploads
+vendor

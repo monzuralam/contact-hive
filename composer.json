@@ -1,0 +1,28 @@
+{
+    "name": "monzuralam/contact-hive",
+    "description": "a simple REST API based contact lists with slim framework.",
+    "keywords": ["rest-api", "api", "php", "slim"],
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "monzuralam",
+            "email": "monzur707@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/psr7": "^1.7",
+        "vlucas/phpdotenv": "^5.6",
+        "slim/slim": "4.*",
+        "illuminate/database": "^11.19",
+        "monolog/monolog": "^3.7",
+        "php-di/php-di": "^7.0",
+        "php-di/slim-bridge": "^3.4",
+        "illuminate/events": "^11.19"
+    }
+}
